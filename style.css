@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#nav-bar
+{
+	position: sticky;
+	top:0;
+	z-index: 10;
+}
+.navbar-brand img {
+	height: 70px;
+	padding-left: 30px;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler{
+	border: none!important;
+}
+.nav-link
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+.carousel-inner img{
+	margin-left: 25%;
+	height: 100vh;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#slider{
+	width: 100%;
+}
+.caption{
+	top:50%;
+	transform: translateY(-50%);
+	bottom:initial!important;
+}
+.caption h1{
+	font-size: 30px;
+	font-family: georgia,garamond,serif;
+	font-style: italic;
+	color: #21618C
+}
+.heading{
+	margin-left: 25%;
+	margin-right: 25%;
+	font-size: 30px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+	color: #85C1E9;
+}
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image:url(images.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content1 {
+	padding-top: 20px;
+	color:#D6EAF8;
+}
+.content2{
+	padding-top: 110px;
+	color:#D6EAF8;
+}
+.content3{
+	padding-top: 20px;
+	color:#D6EAF8;
+}
+.content1 h3{
+	font-size: 30px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+	color:#85C1E9;
+}
+.content2 h3{
+	font-size: 30px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+	color:#85C1E9;
+}
+.content3 h3{
+	font-size: 30px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+	color:#85C1E9;
+}
+#incentives  h2{
+	padding-top: 120px;
+	text-align: center;
+	color: #21618C;
+	padding-bottom: 10px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+    font-size: 30px;
+
+}
+#incentives h2::after{
+	content: ' ';
+	background: #21618C;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 20px auto 5px;
+}
+.icon{
+	font-size: 20px;
+	padding-left: 100px;
+	
+}
+.container{
+	margin-top: 40px;
+}
+#incentives h3{
+	font-size: 20px;
+	padding-left: 100px;
+}
+#incentives p{
+	font-size: 10px;
+	padding-left: 100px;
+}
+#responsibilities{
+	padding-top: 150px;
+}
+#responsibilities h2{
+	text-align: center;
+	color:#21618C;
+	padding-bottom: 10px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+    font-size: 30px;
+
+}
+#responsibilities h2::after{
+	content=' ';
+	background: #21618C;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+.caption h2{
+	padding-top: 70px;
+	font-size: 30px;
+	font-family: georgia,garamond,serif;
+	font-style: italic;
+	color: #21618C;
+}
+#prerequisite{
+	padding-top: 20px;
+}
+#prerequisite h1{
+	text-align: center;
+	color:#1B4F72;
+	padding-bottom: 10px;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+    font-size: 30px;
+
+}
+#prerequisite h1::after{
+	content=' ';
+	background: #21618C;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+	
+}
+#prerequisite ul {
+  list-style: none; 
+  font-size: 20px;
+  font-family: georgia,garamond,serif;
+  font-style: italic,bold;
+  color:  #21618C;
+}
+
+#prerequisite ul li::before {
+  content: "\2022";  
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 10%;
+}
+#contact{
+	padding-top:120px;
+	margin
+
+}
+.contactus h1{
+	padding-top: 50px;
+	font-size: 20px;
+	padding-left: 200px;
+	color:#D6EAF8;
+	font-family: georgia,garamond,serif;
+	font-style: italic,bold;
+	text-align: center;
+	padding-right: 100px;
+}
+.follow p{
+	font-size: 15px;
+	padding-left: 100px;
+	color: #21618C;
+}
+#contact{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	background-image:url(download.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+ }
+ #contact .icon{
+	padding-left: 100px;
+}
+
+
